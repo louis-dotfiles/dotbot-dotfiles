@@ -1,0 +1,18 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/nvim: neovim
+    ~/.config/starship.toml: starship/starship.toml
+    ~/.config/alacritty: alacritty/
+    ~/.config/zsh/: zsh/
+    ~/.zshenv: zsh/.zshenv
+    ~/.config/git: git/
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+
