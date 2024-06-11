@@ -17,5 +17,6 @@
 
 - shell:
   - [git submodule update --init --recursive --remote, Installing submodules]
-  - [chsh -s $(which zsh), Making zsh the default shell]
+  # Doesn't work because of the password prompt (I think).
+  # - [chsh -s $(which zsh), Making zsh the default shell]
 
