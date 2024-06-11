@@ -4,16 +4,21 @@
 	ignore = dirty
 [submodule "alacritty"]
 	path = alacritty
-	url = https://github.com/louis-dotfiles/alacritty
+	url = git@github.com:louis-dotfiles/alacritty.git
+	branch = main
 [submodule "starship"]
 	path = starship
-	url = https://github.com/louis-dotfiles/starship
+	url = git@github.com:louis-dotfiles/starship.git
+	branch = main
 [submodule "neovim"]
 	path = neovim
-	url = https://github.com/louis-dotfiles/neovim
+	url = git@github.com:louis-dotfiles/neovim.git
+	branch = main
 [submodule "zsh"]
 	path = zsh
-	url = https://github.com/louis-dotfiles/zsh
+	url = git@github.com:louis-dotfiles/zsh.git
+	branch = main
 [submodule "git"]
 	path = git
-	url = https://github.com/louis-dotfiles/git
+	url = git@github.com:louis-dotfiles/git.git
+	branch = main
