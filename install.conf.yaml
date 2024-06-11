@@ -6,12 +6,14 @@
 - clean: ['~', '~/.config']
 
 - link:
-    ~/.config/nvim: neovim
+    ~/.config/nvim: neovim/
     ~/.config/starship.toml: starship/starship.toml
     ~/.config/alacritty: alacritty/
     ~/.config/zsh/: zsh/
     ~/.zshenv: zsh/.zshenv
     ~/.config/git: git/
+    ~/.config/aliases: aliases/
+    ~/.config/awesome: awesome/
 
 - shell:
   - [git submodule update --init --recursive --remote, Installing submodules]

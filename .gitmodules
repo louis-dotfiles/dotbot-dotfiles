@@ -22,3 +22,10 @@
 	path = git
 	url = git@github.com:louis-dotfiles/git.git
 	branch = main
+[submodule "aliases"]
+	path = aliases
+	url = git@github.com:louis-dotfiles/shell-aliases.git
+	branch = main
+[submodule "awesome"]
+	path = awesome
+	url = git@github.com:louis-dotfiles/awesome.git
