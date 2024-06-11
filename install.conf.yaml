@@ -14,5 +14,6 @@
     ~/.config/git: git/
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+  - [git submodule update --init --recursive --remote, Installing submodules]
+  - [chsh -s $(which zsh), Making zsh the default shell]
 
