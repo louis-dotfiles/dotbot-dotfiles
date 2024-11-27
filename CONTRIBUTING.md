@@ -10,6 +10,8 @@ Then edit the [./install.conf.yaml](./install.conf.yaml) configuration to specif
 
 Here is the official [Dotbot configuration documentation](https://github.com/anishathalye/dotbot?tab=readme-ov-file#configuration).
 
+When makeing your `git commit`, do not forget to add the `<folder_name>` as well.
+
 ## Is that it?
 
 Yes.

@@ -15,6 +15,7 @@ Running this dotbot config will attempt to install all of the folloing dotfiles:
 - My [shell aliases](https://github.com/louis-dotfiles/shell-aliases).
 - My [terminal prompt configuration (Starship.rs)](https://github.com/louis-dotfiles/starship).
 - My [Neovim editor](https://github.com/louis-dotfiles/neovim).
+- My [Tmux configuration](https://github.com/louis-dotfiles/tmux).
 
 ## Prerequisites
 
@@ -28,6 +29,15 @@ cd dotfiles
 chmod +x install
 ./install
 ```
+
+## Updating
+
+If you want to update an existing dotfiles installation to the latest commit
+on the `main` branch, all you need to do is run the `install` script again.
+
+If you have conflicting changes on your local dotfiles, the script may fail to
+update a specific configuration (e.g. neovim) but should be able to update the
+rest nonetheless.
 
 ## Is that it?
 
