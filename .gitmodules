@@ -29,3 +29,7 @@
 [submodule "awesome"]
 	path = awesome
 	url = git@github.com:louis-dotfiles/awesome.git
+[submodule "tmux"]
+	path = tmux
+	url = git@github.com:louis-dotfiles/tmux.git
+	branch = main
