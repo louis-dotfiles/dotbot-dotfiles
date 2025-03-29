@@ -33,3 +33,7 @@
 	path = tmux
 	url = git@github.com:louis-dotfiles/tmux.git
 	branch = main
+[submodule "hyprland"]
+	path = hyprland
+	url = git@github.com:louis-dotfiles/hyprland.git
+	branch = main

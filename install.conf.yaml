@@ -15,6 +15,7 @@
     ~/.config/aliases: aliases/
     ~/.config/awesome: awesome/
     ~/.config/tmux: tmux/
+    ~/.config/hypr: hyprland/
 
 - shell:
   - [git submodule update --init --recursive --remote, Installing submodules]
