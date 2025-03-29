@@ -16,6 +16,7 @@
     ~/.config/awesome: awesome/
     ~/.config/tmux: tmux/
     ~/.config/hypr: hyprland/
+    ~/.config/waybar: waybar/
 
 - shell:
   - [git submodule update --init --recursive --remote, Installing submodules]

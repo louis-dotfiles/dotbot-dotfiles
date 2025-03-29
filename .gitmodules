@@ -37,3 +37,7 @@
 	path = hyprland
 	url = git@github.com:louis-dotfiles/hyprland.git
 	branch = main
+[submodule "waybar"]
+	path = waybar
+	url = git@github.com:louis-dotfiles/waybar.git
+	branch = main
