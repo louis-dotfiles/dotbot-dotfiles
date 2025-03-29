@@ -26,9 +26,6 @@
 	path = aliases
 	url = git@github.com:louis-dotfiles/shell-aliases.git
 	branch = main
-[submodule "awesome"]
-	path = awesome
-	url = git@github.com:louis-dotfiles/awesome.git
 [submodule "tmux"]
 	path = tmux
 	url = git@github.com:louis-dotfiles/tmux.git

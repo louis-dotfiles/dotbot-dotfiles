@@ -13,7 +13,6 @@
     ~/.zshenv: zsh/.zshenv
     ~/.config/git: git/
     ~/.config/aliases: aliases/
-    ~/.config/awesome: awesome/
     ~/.config/tmux: tmux/
     ~/.config/hypr: hyprland/
     ~/.config/waybar: waybar/
