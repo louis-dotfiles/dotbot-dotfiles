@@ -38,3 +38,7 @@
 	path = waybar
 	url = git@github.com:louis-dotfiles/waybar.git
 	branch = main
+[submodule "rofi"]
+	path = rofi
+	url = ssh://git@codeberg.org/Comfy_Dotfiles/Rofi_config.git
+	branch = main
